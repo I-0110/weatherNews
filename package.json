@@ -1,7 +1,7 @@
 {
   "name": "weather-dashboard",
   "version": "1.0.0",
-  "description": "",
+  "description": "External APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in their context, frequently consuming this data via a server.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,6 +25,18 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
-    "bootstrap": "^5.3.3"
-  }
+    "bootstrap": "^5.3.3",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "uuid": "^11.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/I-0110/weatherNews.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/I-0110/weatherNews/issues"
+  },
+  "homepage": "https://github.com/I-0110/weatherNews#readme"
 }
