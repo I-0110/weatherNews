@@ -16,7 +16,7 @@
     "render-build": "npm install && npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "I-0110",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^8.2.2",
