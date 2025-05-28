@@ -23,7 +23,7 @@ Step 3: Get the most updated weather from the area you are looking for
 
 You can use our Weather News by using our weather app to access the weather in places you are visiting or planning to.
 
-    ![Weather News](/Assets/Screenshot2025-05-28.png)
+    ![Weather News](Assets/Screenshot2025-05-28.png)
     
 ## Credits
 
