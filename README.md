@@ -2,7 +2,7 @@
 
 ## Description
 
-Our Weather News is inspired by the need to practice how to use an api and be able to use it in client and server sides. We created this project because we needed a website that provide the weather without jungling against all the ads that regular weather websites have. We resolved the extra context from other weather websites by keeping what is essential: the city and their weather for up to five days. We learned that setting the server to communicate with the client can be very complex and overwhealming.
+Our Weather News is inspired by the need to practice how to use an api and be able to use it on client and server sides. We created this project because we needed a website that provides weather information without competing against all the ads that regular weather websites have. We resolved the extra context from other weather websites by keeping what is essential: the city and its weather for up to five days. We learned that setting the server to communicate with the client can be complex and overwhelming.
 
 
 ## Table of Contents
@@ -21,9 +21,9 @@ Step 3: Get the most updated weather from the area you are looking for
 
 ## Usage
 
-You can use our Weather News by using our weather app to access the weather to places you are visiting or planning to.
+You can use our Weather News by using our weather app to access the weather in places you are visiting or planning to.
 
-    ![Weather News](./Assets/Screenshot2025-05-28.png)
+    ![Weather News](/Assets/Screenshot2025-05-28.png)
     
 ## Credits
 
@@ -50,10 +50,6 @@ Show the weather for up to five days
 
 ## How to Contribute
 
-false application/package. 
-
-false contributor covenant. 
-
 You can contact me at my email ivelisbecker@gmail.com to share ideas on how to improve our website
 
 ## Tests
@@ -64,4 +60,4 @@ Created by Ivelis Becker GitHub: I-0110
 
 ## Questions 
 
-For questions, please contact Ivelis Becker, ivelisbecker@gmail.com, https://github.com/I-0110
+For questions, please contact Ivelis Becker at ivelisbecker@gmail.com or https://github.com/I-0110
