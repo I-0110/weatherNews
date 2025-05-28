@@ -42,7 +42,7 @@ MIT
 
 ## Badges
 
-![badmath](https://img.shields.io/badge/typescript-typescript-blue?logo=typescript  https://img.shields.io/badge/vite-vite-blue?logo=vite)
+![badmath](https://img.shields.io/badge/typescript-typescript-blue?logo=typescript)  ![badmath](https://img.shields.io/badge/vite-vite-blue?logo=vite)
 
 ## Features
 
