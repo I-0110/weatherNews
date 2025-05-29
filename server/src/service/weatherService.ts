@@ -35,13 +35,12 @@ class WeatherService {
     this.baseURL = 'https://api.openweathermap.org';
     this.apiKey = process.env.OPENWEATHER_API_KEY || '';
     this.city = '';
-  console.log(this.apiKey);
   }
   // TODO: Create fetchLocationData method
   private async fetchLocationData(query: string) {
     const url = this.buildGeocodeQuery(query);
     const response = await fetch(url);
-    console.log('Fetching location data from URL:', url);
+    // console.log('Fetching location data from URL:', url);
     if (!response.ok) throw new Error('Location not found');
     
     const data = await response.json();
@@ -77,24 +76,24 @@ class WeatherService {
   // TODO: Create fetchWeatherData method
   private async fetchWeatherData(coordinates: Coordinates) {
     const url = this.buildWeatherQuery(coordinates);
-    console.log('Fetching weather data from URL:', url);
+    // console.log('Fetching weather data from URL:', url);
     const response = await fetch(url);
     if (!response.ok) throw new Error('Failed to fetch weather data');
 
     const data = await response.json();
-    console.log('Location data:', data);
-    console.log('Weather data:', data);
+    // console.log('Location data:', data);
+    // console.log('Weather data:', data);
     return data.list;
   }
 
   // TODO: Build parseCurrentWeather method
   private parseCurrentWeather(response: any) {
-    console.log('Parsing current weather response:', response);
+    // console.log('Parsing current weather response:', response);
     return new Weather(
       response.name,
-      response.weather[0].icon,
+      response.weather.icon,
       response.main.temp,
-      response.weather[0].description,
+      response.weather.description,
       response.wind.speed,
       response.main.humidity,
       new Date(response.dt * 1000).toString(),
